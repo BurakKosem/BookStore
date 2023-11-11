@@ -1,0 +1,589 @@
+2023-08-03 11:49:48.2364 Info Message Template Auto Format enabled
+2023-08-03 11:49:48.3114 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 11:49:48.3377 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:22:57.5907 Info Message Template Auto Format enabled
+2023-08-03 14:22:57.6624 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:22:57.6801 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:24:04.5885 Info Message Template Auto Format enabled
+2023-08-03 14:24:04.6499 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:24:04.6726 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:25:24.5903 Info Message Template Auto Format enabled
+2023-08-03 14:25:24.6497 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:25:24.6674 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:27:08.4541 Info Message Template Auto Format enabled
+2023-08-03 14:27:08.5193 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:27:08.5434 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:28:35.4905 Info Message Template Auto Format enabled
+2023-08-03 14:28:35.5917 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:28:35.6170 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:31:19.1982 Info Message Template Auto Format enabled
+2023-08-03 14:31:19.2524 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:31:19.2689 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:32:46.1275 Info Message Template Auto Format enabled
+2023-08-03 14:32:46.1826 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:32:46.1992 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:35:06.6244 Info Message Template Auto Format enabled
+2023-08-03 14:35:06.6796 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:35:06.6964 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:35:54.3962 Info Message Template Auto Format enabled
+2023-08-03 14:35:54.4514 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:35:54.4677 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:38:24.7213 Info Message Template Auto Format enabled
+2023-08-03 14:38:24.7755 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:38:24.7915 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:38:43.9860 Info Message Template Auto Format enabled
+2023-08-03 14:38:44.0452 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:38:44.0617 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:53:10.3203 Info Message Template Auto Format enabled
+2023-08-03 14:53:10.3642 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:53:10.3805 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 14:58:09.3172 Info Message Template Auto Format enabled
+2023-08-03 14:58:09.3725 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 14:58:09.3931 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 15:04:00.7073 Info Message Template Auto Format enabled
+2023-08-03 15:04:00.7503 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 15:04:00.7665 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 15:06:29.7378 Info Message Template Auto Format enabled
+2023-08-03 15:06:29.7918 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 15:06:29.8078 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 15:06:58.2829 Info Message Template Auto Format enabled
+2023-08-03 15:06:58.3260 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 15:06:58.3435 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 15:07:47.5589 Info Message Template Auto Format enabled
+2023-08-03 15:07:47.6061 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 15:07:47.6220 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 15:20:22.0191 Info AppDomain Shutting down. LogFactory closing...
+2023-08-03 15:20:22.0309 Info LogFactory has been closed.
+2023-08-03 15:46:17.0853 Info Message Template Auto Format enabled
+2023-08-03 15:46:17.1405 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 15:46:17.1577 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-03 19:00:53.7501 Info Message Template Auto Format enabled
+2023-08-03 19:00:53.8072 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-03 19:00:53.8234 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 10:59:13.6838 Info Message Template Auto Format enabled
+2023-08-04 10:59:13.7566 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 10:59:13.7746 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 10:59:41.8033 Info Message Template Auto Format enabled
+2023-08-04 10:59:41.8601 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 10:59:41.8795 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 12:17:10.8784 Info Message Template Auto Format enabled
+2023-08-04 12:17:10.9404 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 12:17:10.9604 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 12:17:17.0543 Info Message Template Auto Format enabled
+2023-08-04 12:17:17.0987 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 12:17:17.1151 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 12:18:33.3445 Info Message Template Auto Format enabled
+2023-08-04 12:18:33.4294 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 12:18:33.4538 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 12:18:38.9613 Info Message Template Auto Format enabled
+2023-08-04 12:18:39.0088 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 12:18:39.0251 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 12:22:34.6327 Info AppDomain Shutting down. LogFactory closing...
+2023-08-04 12:22:34.6411 Info LogFactory has been closed.
+2023-08-04 12:22:42.1840 Info Message Template Auto Format enabled
+2023-08-04 12:22:42.2271 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 12:22:42.2434 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 12:23:47.2232 Info AppDomain Shutting down. LogFactory closing...
+2023-08-04 12:23:47.2306 Info LogFactory has been closed.
+2023-08-04 12:23:56.1393 Info Message Template Auto Format enabled
+2023-08-04 12:23:56.1875 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 12:23:56.2046 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 12:24:17.2389 Info AppDomain Shutting down. LogFactory closing...
+2023-08-04 12:24:17.2462 Info LogFactory has been closed.
+2023-08-04 12:24:35.7603 Info Message Template Auto Format enabled
+2023-08-04 12:24:35.8121 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 12:24:35.8298 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 12:25:11.6232 Info Message Template Auto Format enabled
+2023-08-04 12:25:11.6650 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 12:25:11.6798 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 12:25:31.5934 Info AppDomain Shutting down. LogFactory closing...
+2023-08-04 12:25:31.5934 Info LogFactory has been closed.
+2023-08-04 12:25:35.7252 Info Message Template Auto Format enabled
+2023-08-04 12:25:35.7828 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 12:25:35.7988 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-04 12:31:08.3237 Info Message Template Auto Format enabled
+2023-08-04 12:31:08.3869 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-04 12:31:08.4037 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 17:57:12.0106 Info Message Template Auto Format enabled
+2023-08-09 17:57:12.0806 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 17:57:12.0982 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 18:06:58.3209 Info Message Template Auto Format enabled
+2023-08-09 18:06:58.3787 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 18:06:58.3951 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 18:22:26.5712 Info Message Template Auto Format enabled
+2023-08-09 18:22:26.6279 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 18:22:26.6453 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 18:26:30.9672 Info Message Template Auto Format enabled
+2023-08-09 18:26:31.0417 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 18:26:31.0622 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 18:32:11.6856 Info Message Template Auto Format enabled
+2023-08-09 18:32:11.7475 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 18:32:11.7655 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 18:34:11.6226 Info Message Template Auto Format enabled
+2023-08-09 18:34:11.7248 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 18:34:11.7523 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 18:36:01.7562 Info Message Template Auto Format enabled
+2023-08-09 18:36:01.8522 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 18:36:01.8739 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 19:22:50.0654 Info Message Template Auto Format enabled
+2023-08-09 19:22:50.1208 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 19:22:50.1393 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 19:26:50.3534 Info Message Template Auto Format enabled
+2023-08-09 19:26:50.3963 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 19:26:50.4128 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 19:29:28.5914 Info AppDomain Shutting down. LogFactory closing...
+2023-08-09 19:29:28.5914 Info LogFactory has been closed.
+2023-08-09 19:29:32.5342 Info Message Template Auto Format enabled
+2023-08-09 19:29:32.5955 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 19:29:32.6117 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 19:31:07.4746 Info Message Template Auto Format enabled
+2023-08-09 19:31:07.5696 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 19:31:07.5902 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 19:32:05.9110 Info Message Template Auto Format enabled
+2023-08-09 19:32:05.9726 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 19:32:05.9917 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 19:32:53.0046 Info Message Template Auto Format enabled
+2023-08-09 19:32:53.0718 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 19:32:53.0929 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 19:54:58.2598 Info Message Template Auto Format enabled
+2023-08-09 19:54:58.3443 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 19:54:58.3747 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 19:56:50.2074 Info Message Template Auto Format enabled
+2023-08-09 19:56:50.2618 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 19:56:50.2825 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 19:59:21.8555 Info Message Template Auto Format enabled
+2023-08-09 19:59:21.9007 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 19:59:21.9171 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 20:01:17.9213 Info AppDomain Shutting down. LogFactory closing...
+2023-08-09 20:01:17.9213 Info LogFactory has been closed.
+2023-08-09 22:04:30.3104 Info Message Template Auto Format enabled
+2023-08-09 22:04:30.3663 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 22:04:30.3836 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-09 22:09:50.7945 Info Message Template Auto Format enabled
+2023-08-09 22:09:50.8736 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-09 22:09:50.8946 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 09:26:31.3766 Info Message Template Auto Format enabled
+2023-08-11 09:26:31.4384 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 09:26:31.4572 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 09:30:49.2942 Info Message Template Auto Format enabled
+2023-08-11 09:30:49.3498 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 09:30:49.3685 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 10:10:59.8652 Info Message Template Auto Format enabled
+2023-08-11 10:10:59.9376 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 10:10:59.9611 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 10:12:20.9190 Info Message Template Auto Format enabled
+2023-08-11 10:12:20.9777 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 10:12:21.0057 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 10:14:10.6979 Info Message Template Auto Format enabled
+2023-08-11 10:14:10.7740 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 10:14:10.7999 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 10:15:53.4748 Info Message Template Auto Format enabled
+2023-08-11 10:15:53.5338 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 10:15:53.5501 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 14:03:02.7313 Info Message Template Auto Format enabled
+2023-08-11 14:03:02.8108 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 14:03:02.8376 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 14:05:28.3855 Info Message Template Auto Format enabled
+2023-08-11 14:05:28.4493 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 14:05:28.4708 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 14:07:47.0096 Info Message Template Auto Format enabled
+2023-08-11 14:07:47.0885 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 14:07:47.1190 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 14:09:15.3684 Info Message Template Auto Format enabled
+2023-08-11 14:09:15.4494 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 14:09:15.4810 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 14:10:28.0079 Info Message Template Auto Format enabled
+2023-08-11 14:10:28.0881 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 14:10:28.1102 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 14:11:16.0005 Info Message Template Auto Format enabled
+2023-08-11 14:11:16.0907 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 14:11:16.1219 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 14:13:04.0353 Info Message Template Auto Format enabled
+2023-08-11 14:13:04.0927 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 14:13:04.1147 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 14:32:06.4740 Info Message Template Auto Format enabled
+2023-08-11 14:32:06.5558 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 14:32:06.5773 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 14:33:27.4073 Info Message Template Auto Format enabled
+2023-08-11 14:33:27.4636 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 14:33:27.4806 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 14:48:21.5330 Info Message Template Auto Format enabled
+2023-08-11 14:48:21.5939 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 14:48:21.6121 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 15:06:38.8905 Info Message Template Auto Format enabled
+2023-08-11 15:06:38.9768 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 15:06:39.0016 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 15:22:14.7097 Info Message Template Auto Format enabled
+2023-08-11 15:22:14.7665 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 15:22:14.7869 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 15:22:59.5081 Info Message Template Auto Format enabled
+2023-08-11 15:22:59.5616 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 15:22:59.5772 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 15:23:27.7464 Info Message Template Auto Format enabled
+2023-08-11 15:23:27.7995 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 15:23:27.8169 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 15:24:03.0510 Info Message Template Auto Format enabled
+2023-08-11 15:24:03.1144 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 15:24:03.1328 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 15:24:25.4300 Info Message Template Auto Format enabled
+2023-08-11 15:24:25.4862 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 15:24:25.5033 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 15:24:48.6710 Info Message Template Auto Format enabled
+2023-08-11 15:24:48.7306 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 15:24:48.7484 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 15:25:39.8079 Info Message Template Auto Format enabled
+2023-08-11 15:25:39.8659 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 15:25:39.8850 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 18:06:14.7502 Info Message Template Auto Format enabled
+2023-08-11 18:06:14.8135 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 18:06:14.8324 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 18:14:35.9140 Info Message Template Auto Format enabled
+2023-08-11 18:14:35.9799 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 18:14:36.0003 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 18:17:02.1789 Info Message Template Auto Format enabled
+2023-08-11 18:17:02.2417 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 18:17:02.2628 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 18:19:27.0970 Info Message Template Auto Format enabled
+2023-08-11 18:19:27.1551 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 18:19:27.1728 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 18:27:04.7584 Info Message Template Auto Format enabled
+2023-08-11 18:27:04.8255 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 18:27:04.8478 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 18:28:38.6169 Info Message Template Auto Format enabled
+2023-08-11 18:28:38.6848 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 18:28:38.7061 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-11 18:33:19.5079 Info Message Template Auto Format enabled
+2023-08-11 18:33:19.5693 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-11 18:33:19.5893 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-12 11:50:12.4946 Info Message Template Auto Format enabled
+2023-08-12 11:50:12.5687 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-12 11:50:12.5881 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-12 11:50:40.2359 Info Message Template Auto Format enabled
+2023-08-12 11:50:40.2966 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-12 11:50:40.3250 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-12 11:53:35.4762 Info Message Template Auto Format enabled
+2023-08-12 11:53:35.5353 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-12 11:53:35.5539 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-12 11:54:08.9621 Info Message Template Auto Format enabled
+2023-08-12 11:54:09.0244 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-12 11:54:09.0436 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 11:30:02.8737 Info Message Template Auto Format enabled
+2023-08-13 11:30:02.9454 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 11:30:02.9669 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 12:14:39.4429 Info Message Template Auto Format enabled
+2023-08-13 12:14:39.5277 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 12:14:39.5598 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 12:16:00.4200 Info AppDomain Shutting down. LogFactory closing...
+2023-08-13 12:16:00.4320 Info LogFactory has been closed.
+2023-08-13 12:17:27.2771 Info Message Template Auto Format enabled
+2023-08-13 12:17:27.3389 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 12:17:27.3603 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 12:33:08.0044 Info Message Template Auto Format enabled
+2023-08-13 12:33:08.0627 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 12:33:08.0796 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 16:03:16.1870 Info Message Template Auto Format enabled
+2023-08-13 16:03:16.2644 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 16:03:16.2841 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 16:04:30.3760 Info Message Template Auto Format enabled
+2023-08-13 16:04:30.4405 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 16:04:30.4632 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 16:04:56.4324 Info Message Template Auto Format enabled
+2023-08-13 16:04:56.4908 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 16:04:56.5116 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 16:05:17.1582 Info Message Template Auto Format enabled
+2023-08-13 16:05:17.2398 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 16:05:17.2723 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 16:05:28.6238 Info Message Template Auto Format enabled
+2023-08-13 16:05:28.7110 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 16:05:28.7320 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 16:05:45.6828 Info Message Template Auto Format enabled
+2023-08-13 16:05:45.7451 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 16:05:45.7629 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 16:06:27.5051 Info Message Template Auto Format enabled
+2023-08-13 16:06:27.5779 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 16:06:27.6096 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-13 16:08:46.8725 Info Message Template Auto Format enabled
+2023-08-13 16:08:46.9533 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-13 16:08:46.9794 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 16:52:46.1146 Info Message Template Auto Format enabled
+2023-08-14 16:52:46.4157 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 16:52:46.4355 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 16:56:45.1622 Info Message Template Auto Format enabled
+2023-08-14 16:56:45.2167 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 16:56:45.2324 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 16:57:06.4616 Info Message Template Auto Format enabled
+2023-08-14 16:57:06.5156 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 16:57:06.5324 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:00:26.8095 Info Message Template Auto Format enabled
+2023-08-14 17:00:26.8634 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:00:26.8797 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:01:17.4021 Info Message Template Auto Format enabled
+2023-08-14 17:01:17.4742 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:01:17.5034 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:01:41.2289 Info Message Template Auto Format enabled
+2023-08-14 17:01:41.2871 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:01:41.3078 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:12:15.0195 Info Message Template Auto Format enabled
+2023-08-14 17:12:15.0908 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:12:15.1129 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:12:55.2867 Info Message Template Auto Format enabled
+2023-08-14 17:12:55.3418 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:12:55.3617 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:15:45.5991 Info Message Template Auto Format enabled
+2023-08-14 17:15:45.6601 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:15:45.6771 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:17:13.1589 Info Message Template Auto Format enabled
+2023-08-14 17:17:13.2139 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:17:13.2303 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:24:10.9113 Info Message Template Auto Format enabled
+2023-08-14 17:24:10.9744 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:24:10.9950 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:28:43.4511 Info Message Template Auto Format enabled
+2023-08-14 17:28:43.5144 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:28:43.5360 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:30:41.9513 Info Message Template Auto Format enabled
+2023-08-14 17:30:42.0166 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:30:42.0348 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:32:27.9012 Info Message Template Auto Format enabled
+2023-08-14 17:32:27.9670 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:32:27.9906 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:32:42.8200 Info Message Template Auto Format enabled
+2023-08-14 17:32:42.9103 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:32:42.9316 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:34:18.4647 Info Message Template Auto Format enabled
+2023-08-14 17:34:18.5274 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:34:18.5475 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:37:15.8713 Info Message Template Auto Format enabled
+2023-08-14 17:37:15.9294 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:37:15.9535 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:39:19.2606 Info Message Template Auto Format enabled
+2023-08-14 17:39:19.3202 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:39:19.3455 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:41:47.6478 Info Message Template Auto Format enabled
+2023-08-14 17:41:47.7055 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:41:47.7232 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:42:49.1157 Info Message Template Auto Format enabled
+2023-08-14 17:42:49.1751 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:42:49.1927 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:43:13.0545 Info Message Template Auto Format enabled
+2023-08-14 17:43:13.1812 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:43:13.1993 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:44:15.7202 Info AppDomain Shutting down. LogFactory closing...
+2023-08-14 17:44:15.7332 Info LogFactory has been closed.
+2023-08-14 17:44:45.3381 Info Message Template Auto Format enabled
+2023-08-14 17:44:45.3971 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:44:45.4197 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:46:33.2379 Info Message Template Auto Format enabled
+2023-08-14 17:46:33.2985 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:46:33.3168 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:48:37.9389 Info Message Template Auto Format enabled
+2023-08-14 17:48:37.9989 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:48:38.0211 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:50:26.5571 Info Message Template Auto Format enabled
+2023-08-14 17:50:26.6247 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:50:26.6422 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:50:37.1993 Info Message Template Auto Format enabled
+2023-08-14 17:50:37.2711 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:50:37.2991 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:53:25.7663 Info Message Template Auto Format enabled
+2023-08-14 17:53:25.8420 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:53:25.8729 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:54:12.6834 Info Message Template Auto Format enabled
+2023-08-14 17:54:12.7464 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:54:12.7647 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:55:31.7574 Info Message Template Auto Format enabled
+2023-08-14 17:55:31.8200 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:55:31.8392 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-14 17:55:52.8612 Info Message Template Auto Format enabled
+2023-08-14 17:55:52.9268 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-14 17:55:52.9464 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 10:52:54.1589 Info Message Template Auto Format enabled
+2023-08-15 10:52:54.2226 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 10:52:54.2448 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 10:54:30.7704 Info Message Template Auto Format enabled
+2023-08-15 10:54:30.8462 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 10:54:30.8812 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 10:56:01.2157 Info Message Template Auto Format enabled
+2023-08-15 10:56:01.2878 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 10:56:01.3091 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:13:30.3731 Info Message Template Auto Format enabled
+2023-08-15 11:13:30.4425 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:13:30.4602 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:22:59.4340 Info Message Template Auto Format enabled
+2023-08-15 11:22:59.5499 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:22:59.5741 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:23:43.5419 Info Message Template Auto Format enabled
+2023-08-15 11:23:43.5964 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:23:43.6142 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:26:04.6060 Info Message Template Auto Format enabled
+2023-08-15 11:26:04.6713 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:26:04.6929 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:26:30.6078 Info Message Template Auto Format enabled
+2023-08-15 11:26:30.6626 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:26:30.6874 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:27:15.3560 Info Message Template Auto Format enabled
+2023-08-15 11:27:15.4208 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:27:15.4423 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:27:53.0528 Info Message Template Auto Format enabled
+2023-08-15 11:27:53.1152 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:27:53.1341 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:30:36.9550 Info Message Template Auto Format enabled
+2023-08-15 11:30:37.0404 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:30:37.0733 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:31:20.4749 Info Message Template Auto Format enabled
+2023-08-15 11:31:20.5363 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:31:20.5617 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:33:16.8793 Info Message Template Auto Format enabled
+2023-08-15 11:33:16.9482 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:33:16.9670 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:34:52.1036 Info Message Template Auto Format enabled
+2023-08-15 11:34:52.1734 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:34:52.1923 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:45:05.6953 Info Message Template Auto Format enabled
+2023-08-15 11:45:05.7514 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:45:05.7679 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 11:46:26.3018 Info Message Template Auto Format enabled
+2023-08-15 11:46:26.3632 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 11:46:26.3825 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 14:56:47.1164 Info Message Template Auto Format enabled
+2023-08-15 14:56:47.1831 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 14:56:47.1993 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 14:56:48.4747 Info AppDomain Shutting down. LogFactory closing...
+2023-08-15 14:56:48.4832 Info LogFactory has been closed.
+2023-08-15 14:57:07.7556 Info Message Template Auto Format enabled
+2023-08-15 14:57:07.8079 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 14:57:07.8251 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 14:57:13.8424 Info AppDomain Shutting down. LogFactory closing...
+2023-08-15 14:57:13.8424 Info LogFactory has been closed.
+2023-08-15 15:08:14.1149 Info Message Template Auto Format enabled
+2023-08-15 15:08:14.1583 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 15:08:14.1737 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 15:08:15.0764 Info AppDomain Shutting down. LogFactory closing...
+2023-08-15 15:08:15.0764 Info LogFactory has been closed.
+2023-08-15 15:08:40.5633 Info Message Template Auto Format enabled
+2023-08-15 15:08:40.6145 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 15:08:40.6325 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 15:08:41.7906 Info AppDomain Shutting down. LogFactory closing...
+2023-08-15 15:08:41.7906 Info LogFactory has been closed.
+2023-08-15 15:10:52.6054 Info Message Template Auto Format enabled
+2023-08-15 15:10:52.6514 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 15:10:52.6683 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 15:10:53.5676 Info AppDomain Shutting down. LogFactory closing...
+2023-08-15 15:10:53.5750 Info LogFactory has been closed.
+2023-08-15 15:11:04.4362 Info Message Template Auto Format enabled
+2023-08-15 15:11:04.4802 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 15:11:04.4966 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 15:11:05.5263 Info AppDomain Shutting down. LogFactory closing...
+2023-08-15 15:11:05.5263 Info LogFactory has been closed.
+2023-08-15 18:28:57.6765 Info Message Template Auto Format enabled
+2023-08-15 18:28:57.7369 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 18:28:57.7539 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-15 18:29:19.7193 Info Message Template Auto Format enabled
+2023-08-15 18:29:19.7855 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-15 18:29:19.8100 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 15:20:15.8493 Info Message Template Auto Format enabled
+2023-08-23 15:20:15.9855 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 15:20:16.0137 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 17:57:21.9954 Info Message Template Auto Format enabled
+2023-08-23 17:57:22.0679 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 17:57:22.0911 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 17:57:41.8215 Info Message Template Auto Format enabled
+2023-08-23 17:57:41.9258 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 17:57:41.9536 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 17:58:04.5719 Info Message Template Auto Format enabled
+2023-08-23 17:58:04.6476 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 17:58:04.6702 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 17:58:44.8730 Info Message Template Auto Format enabled
+2023-08-23 17:58:44.9573 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 17:58:44.9802 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 17:59:58.2108 Info Message Template Auto Format enabled
+2023-08-23 17:59:58.2852 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 17:59:58.3074 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:06:31.3840 Info Message Template Auto Format enabled
+2023-08-23 18:06:31.4686 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:06:31.4925 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:08:14.1836 Info Message Template Auto Format enabled
+2023-08-23 18:08:14.2811 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:08:14.3149 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:09:03.0340 Info Message Template Auto Format enabled
+2023-08-23 18:09:03.1115 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:09:03.1400 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:09:40.2056 Info Message Template Auto Format enabled
+2023-08-23 18:09:40.3100 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:09:40.3346 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:09:52.3435 Info Message Template Auto Format enabled
+2023-08-23 18:09:52.4165 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:09:52.4401 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:10:30.8760 Info Message Template Auto Format enabled
+2023-08-23 18:10:30.9520 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:10:30.9744 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:11:42.4750 Info Message Template Auto Format enabled
+2023-08-23 18:11:42.5704 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:11:42.5944 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:14:12.0792 Info Message Template Auto Format enabled
+2023-08-23 18:14:12.1660 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:14:12.1906 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:15:10.2477 Info Message Template Auto Format enabled
+2023-08-23 18:15:10.3332 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:15:10.3665 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:17:11.9694 Info Message Template Auto Format enabled
+2023-08-23 18:17:12.0571 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:17:12.0868 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:23:46.8198 Info Message Template Auto Format enabled
+2023-08-23 18:23:46.9312 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:23:46.9572 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:24:25.1854 Info Message Template Auto Format enabled
+2023-08-23 18:24:25.2681 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:24:25.2963 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:25:12.7110 Info Message Template Auto Format enabled
+2023-08-23 18:25:12.8178 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:25:12.8431 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:27:20.5807 Info Message Template Auto Format enabled
+2023-08-23 18:27:20.6908 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:27:20.7197 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 18:31:14.9377 Info Message Template Auto Format enabled
+2023-08-23 18:31:15.0156 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 18:31:15.0446 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 21:34:09.3529 Info Message Template Auto Format enabled
+2023-08-23 21:34:09.4417 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 21:34:09.4665 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 21:36:33.6610 Info Message Template Auto Format enabled
+2023-08-23 21:36:33.7972 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 21:36:33.8270 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-23 21:37:29.3234 Info Message Template Auto Format enabled
+2023-08-23 21:37:29.4265 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-23 21:37:29.4559 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-24 10:36:08.8270 Info Message Template Auto Format enabled
+2023-08-24 10:36:08.9545 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-24 10:36:08.9803 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-24 11:57:00.6637 Info Message Template Auto Format enabled
+2023-08-24 11:57:00.7497 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-24 11:57:00.7816 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-24 11:57:46.0881 Info Message Template Auto Format enabled
+2023-08-24 11:57:46.1799 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-24 11:57:46.2099 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-24 14:26:17.5850 Info Message Template Auto Format enabled
+2023-08-24 14:26:17.7067 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-24 14:26:17.7300 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-24 14:30:23.7508 Info Message Template Auto Format enabled
+2023-08-24 14:30:23.7945 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-24 14:30:23.8109 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-24 14:30:24.7823 Info AppDomain Shutting down. LogFactory closing...
+2023-08-24 14:30:24.7823 Info LogFactory has been closed.
+2023-08-24 14:30:39.3680 Info Message Template Auto Format enabled
+2023-08-24 14:30:39.4198 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-24 14:30:39.4379 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-24 14:30:40.9535 Info AppDomain Shutting down. LogFactory closing...
+2023-08-24 14:30:40.9535 Info LogFactory has been closed.
+2023-08-25 15:11:26.4942 Info Message Template Auto Format enabled
+2023-08-25 15:11:26.6146 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-25 15:11:26.6352 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-25 15:21:33.0880 Info Message Template Auto Format enabled
+2023-08-25 15:21:33.1770 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-25 15:21:33.2139 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-26 16:47:24.6190 Info Message Template Auto Format enabled
+2023-08-26 16:47:24.7255 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-26 16:47:24.7470 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config
+2023-08-26 20:11:45.4412 Info Message Template Auto Format enabled
+2023-08-26 20:11:45.5218 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-08-26 20:11:45.5503 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\nlog.config

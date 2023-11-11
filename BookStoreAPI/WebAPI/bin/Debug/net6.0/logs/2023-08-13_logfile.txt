@@ -1,0 +1,59 @@
+2023-08-13 11:30:10.3823 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-13T08:30:10.3593245Z"}
+2023-08-13 11:30:21.1248 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetBookOptions","Id":null,"CreateAt":"2023-08-13T08:30:21.1247739Z"}
+2023-08-13 11:30:26.5429 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-13T08:30:26.542927Z"}
+2023-08-13 12:14:44.7531 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-13T09:14:44.7334251Z"}
+2023-08-13 12:15:51.5752 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-13T09:15:51.5751782Z"}
+2023-08-13 12:17:32.9040 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-13T09:17:32.8856894Z"}
+2023-08-13 12:33:12.9185 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-13T09:33:12.8991222Z"}
+2023-08-13 16:03:22.2946 ERROR Something went wrong: System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Double.Parse(String s)
+   at AspNetCoreRateLimit.Extensions.ToTimeSpan(String timeSpan) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\Extensions.cs:line 60
+   at AspNetCoreRateLimit.RateLimitProcessor.GetMatchingRules(ClientRequestIdentity identity, List`1 rules) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\RateLimitProcessor.cs:line 140
+   at AspNetCoreRateLimit.IpRateLimitProcessor.GetMatchingRulesAsync(ClientRequestIdentity identity, CancellationToken cancellationToken) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\IpRateLimitProcessor.cs:line 45
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 50
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-13 16:03:29.7278 ERROR Something went wrong: System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Double.Parse(String s)
+   at AspNetCoreRateLimit.Extensions.ToTimeSpan(String timeSpan) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\Extensions.cs:line 60
+   at AspNetCoreRateLimit.RateLimitProcessor.GetMatchingRules(ClientRequestIdentity identity, List`1 rules) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\RateLimitProcessor.cs:line 140
+   at AspNetCoreRateLimit.IpRateLimitProcessor.GetMatchingRulesAsync(ClientRequestIdentity identity, CancellationToken cancellationToken) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\IpRateLimitProcessor.cs:line 45
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 50
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-13 16:03:48.8616 ERROR Something went wrong: System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Double.Parse(String s)
+   at AspNetCoreRateLimit.Extensions.ToTimeSpan(String timeSpan) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\Extensions.cs:line 60
+   at AspNetCoreRateLimit.RateLimitProcessor.GetMatchingRules(ClientRequestIdentity identity, List`1 rules) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\RateLimitProcessor.cs:line 140
+   at AspNetCoreRateLimit.IpRateLimitProcessor.GetMatchingRulesAsync(ClientRequestIdentity identity, CancellationToken cancellationToken) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\IpRateLimitProcessor.cs:line 45
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 50
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-13 16:03:55.6805 ERROR Something went wrong: System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Double.Parse(String s)
+   at AspNetCoreRateLimit.Extensions.ToTimeSpan(String timeSpan) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\Extensions.cs:line 60
+   at AspNetCoreRateLimit.RateLimitProcessor.GetMatchingRules(ClientRequestIdentity identity, List`1 rules) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\RateLimitProcessor.cs:line 140
+   at AspNetCoreRateLimit.IpRateLimitProcessor.GetMatchingRulesAsync(ClientRequestIdentity identity, CancellationToken cancellationToken) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\IpRateLimitProcessor.cs:line 45
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 50
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-13 16:05:01.2339 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-13T13:05:01.2087077Z"}
+2023-08-13 16:06:31.9101 ERROR Something went wrong: System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Double.Parse(String s)
+   at AspNetCoreRateLimit.Extensions.ToTimeSpan(String timeSpan) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\Extensions.cs:line 60
+   at AspNetCoreRateLimit.RateLimitProcessor.GetMatchingRules(ClientRequestIdentity identity, List`1 rules) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\RateLimitProcessor.cs:line 140
+   at AspNetCoreRateLimit.IpRateLimitProcessor.GetMatchingRulesAsync(ClientRequestIdentity identity, CancellationToken cancellationToken) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\IpRateLimitProcessor.cs:line 45
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 50
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-13 16:08:52.2462 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-13T13:08:52.2271905Z"}

@@ -1,0 +1,253 @@
+2023-08-15 10:53:03.9535 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T07:53:03.9139912Z"}
+2023-08-15 10:53:19.8449 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-15T07:53:19.8448741Z"}
+2023-08-15 10:54:35.2320 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T07:54:35.2121232Z"}
+2023-08-15 10:54:51.4391 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-15T07:54:51.4390578Z"}
+2023-08-15 10:54:55.1360 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-15T07:54:55.1360406Z"}
+2023-08-15 10:56:09.4038 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T07:56:09.3854609Z"}
+2023-08-15 10:56:14.5076 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T07:56:14.5075961Z"}
+2023-08-15 10:56:22.1898 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-15T07:56:22.1898356Z"}
+2023-08-15 10:56:28.2544 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T07:56:28.254361Z"}
+2023-08-15 10:56:32.3930 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T07:56:32.393008Z"}
+2023-08-15 10:56:32.7067 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T07:56:32.7067614Z"}
+2023-08-15 10:56:33.0567 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T07:56:33.0567329Z"}
+2023-08-15 10:56:42.5821 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T07:56:42.5820907Z"}
+2023-08-15 11:13:35.5265 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T08:13:35.5052259Z"}
+2023-08-15 11:14:01.1944 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-15T08:14:01.1943842Z"}
+2023-08-15 11:26:15.7558 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:26:15.7399933Z"}
+2023-08-15 11:26:16.0150 ERROR Something went wrong: FluentValidation.ValidationException: Validation failed: 
+ -- Name: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz. Severity: Error
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 18
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-15 11:26:40.5105 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:26:40.492745Z"}
+2023-08-15 11:27:28.6783 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:27:28.6617214Z"}
+2023-08-15 11:27:28.8441 ERROR Something went wrong: FluentValidation.ValidationException: Validation failed: 
+ -- Name: 'Name', 3 karakterden büyük veya eşit olmalıdır. 2 karakter girdiniz. Severity: Error
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 18
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-15 11:28:09.2125 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:28:09.1971474Z"}
+2023-08-15 11:28:09.3807 ERROR Something went wrong: FluentValidation.ValidationException: Validation failed: 
+ -- Name: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz. Severity: Error
+ -- Author: 'Author' boş olmamalı. Severity: Error
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 18
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-15 11:28:42.3833 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:28:42.3832507Z"}
+2023-08-15 11:28:42.4663 ERROR Something went wrong: FluentValidation.ValidationException: Validation failed: 
+ -- Name: 'Name', 3 karakterden büyük veya eşit olmalıdır. 2 karakter girdiniz. Severity: Error
+ -- Author: 'Author' boş olmamalı. Severity: Error
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 18
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-15 11:29:01.3488 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T08:29:01.3487854Z"}
+2023-08-15 11:29:11.2670 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-15T08:29:11.2670424Z"}
+2023-08-15 11:29:19.0378 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T08:29:19.0377643Z"}
+2023-08-15 11:29:21.3850 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T08:29:21.3850476Z"}
+2023-08-15 11:29:21.5326 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-15T08:29:21.5326478Z"}
+2023-08-15 11:30:49.0650 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:30:49.0498991Z"}
+2023-08-15 11:30:49.2197 ERROR Something went wrong: FluentValidation.ValidationException: System.Collections.Generic.List`1[FluentValidation.Results.ValidationFailure]
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 18
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-15 11:31:33.4444 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:31:33.4285544Z"}
+2023-08-15 11:31:33.6058 ERROR Something went wrong: FluentValidation.ValidationException: Validation failed: 
+ -- Name: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz. Severity: Error
+ -- Author: 'Author' boş olmamalı. Severity: Error
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 18
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-15 11:33:27.5983 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:33:27.5826058Z"}
+2023-08-15 11:33:27.7529 ERROR Something went wrong: FluentValidation.ValidationException: Validation failed: 
+ -- Name: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz. Severity: Error
+ -- Author: 'Author' boş olmamalı. Severity: Error
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 19
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-15 11:35:04.3979 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:35:04.3813077Z"}
+2023-08-15 11:35:04.5574 ERROR Something went wrong: FluentValidation.ValidationException: Validation failed: 
+ -- Name: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz. Severity: Error
+ -- Author: 'Author' boş olmamalı. Severity: Error
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 19
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-15 11:45:17.8829 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:45:17.8661683Z"}
+2023-08-15 11:45:18.0490 ERROR Something went wrong: System.NotImplementedException: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz.
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 20
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-15 11:46:37.0486 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-15T08:46:37.0318673Z"}
+2023-08-15 11:46:37.2403 ERROR Something went wrong: FluentValidation.ValidationException: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz.
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 20
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)

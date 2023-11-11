@@ -1,0 +1,288 @@
+2023-08-14 16:52:59.8561 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T13:52:59.8262647Z"}
+2023-08-14 16:53:10.6250 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T13:53:10.6249766Z"}
+2023-08-14 16:56:52.4068 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T13:56:52.3911644Z"}
+2023-08-14 16:56:53.7992 ERROR Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Categories_CategoryId". The conflict occurred in database "BookStore", table "dbo.Categories", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:95f4bd6e-637f-490f-8581-879746d4a7ea
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DataAccess.Repositories.RepositoryBase`1.SaveAsync() in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\DataAccess\Repositories\RepositoryBase.cs:line 62
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 37
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-14 16:57:21.3120 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T13:57:21.2961437Z"}
+2023-08-14 16:57:28.0446 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T13:57:28.0445868Z"}
+2023-08-14 17:00:41.2461 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:00:41.2051492Z"}
+2023-08-14 17:00:45.7441 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:00:45.7440942Z"}
+2023-08-14 17:01:52.1639 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:01:52.1479334Z"}
+2023-08-14 17:13:10.5123 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:13:10.4975717Z"}
+2023-08-14 17:13:43.4725 ERROR Something went wrong: FluentValidation.ValidationException: 'Name', 3 karakterden büyük veya eşit olmalıdır. 2 karakter girdiniz.
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 19
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-14 17:13:57.6393 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:13:57.6393175Z"}
+2023-08-14 17:15:58.1009 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:15:58.0854101Z"}
+2023-08-14 17:17:29.2893 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:17:29.2732501Z"}
+2023-08-14 17:17:29.4578 ERROR Something went wrong: FluentValidation.ValidationException: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz.
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 19
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-14 17:24:27.5210 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:24:27.5044911Z"}
+2023-08-14 17:24:27.6807 ERROR Something went wrong: System.Exception: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz.
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 18
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-14 17:28:56.2030 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:28:56.1872198Z"}
+2023-08-14 17:29:01.8418 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:29:01.8417721Z"}
+2023-08-14 17:30:47.5842 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:30:47.5663112Z"}
+2023-08-14 17:30:59.7827 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:30:59.7826841Z"}
+2023-08-14 17:31:24.4583 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:31:24.4583093Z"}
+2023-08-14 17:31:58.7774 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:31:58.7773726Z"}
+2023-08-14 17:31:58.9113 ERROR Something went wrong: FluentValidation.ValidationException: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz.
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 18
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-14 17:32:33.3970 ERROR Something went wrong: System.FormatException: 10 can't be converted to TimeSpan, unknown type 0
+   at AspNetCoreRateLimit.Extensions.ToTimeSpan(String timeSpan) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\Extensions.cs:line 61
+   at AspNetCoreRateLimit.RateLimitProcessor.GetMatchingRules(ClientRequestIdentity identity, List`1 rules) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\RateLimitProcessor.cs:line 140
+   at AspNetCoreRateLimit.IpRateLimitProcessor.GetMatchingRulesAsync(ClientRequestIdentity identity, CancellationToken cancellationToken) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Core\IpRateLimitProcessor.cs:line 45
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 50
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-14 17:32:47.7162 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:32:47.69784Z"}
+2023-08-14 17:33:04.0873 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:33:04.087247Z"}
+2023-08-14 17:33:04.2307 ERROR Something went wrong: FluentValidation.ValidationException: 'Name', 3 karakterden büyük veya eşit olmalıdır. 1 karakter girdiniz.
+   at Business.Validations.ValidationTool.Validate(IValidator validator, Object entity) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Validations\ValidationTool.cs:line 18
+   at Business.Concrete.BookManager.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 35
+   at WebAPI.Controllers.BookController.Add(BookDto bookDto) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-14 17:33:08.5381 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:33:08.5381274Z"}
+2023-08-14 17:34:23.2658 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:34:23.2477272Z"}
+2023-08-14 17:34:39.7129 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:34:39.7128559Z"}
+2023-08-14 17:37:21.1310 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:37:21.1130429Z"}
+2023-08-14 17:37:35.6460 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:37:35.6459734Z"}
+2023-08-14 17:38:36.1144 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:38:36.1143958Z"}
+2023-08-14 17:39:26.7063 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:39:26.6874546Z"}
+2023-08-14 17:39:42.9070 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:39:42.9070024Z"}
+2023-08-14 17:41:52.1187 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:41:52.1003004Z"}
+2023-08-14 17:42:14.5209 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:42:14.5209261Z"}
+2023-08-14 17:43:17.9273 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:43:17.9088425Z"}
+2023-08-14 17:43:33.1474 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:43:33.1473421Z"}
+2023-08-14 17:43:35.4963 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:43:35.4963392Z"}
+2023-08-14 17:43:43.1753 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:43:43.1753445Z"}
+2023-08-14 17:43:46.5247 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:43:46.524697Z"}
+2023-08-14 17:44:00.8663 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"Add","Id":null,"CreateAt":"2023-08-14T14:44:00.8663017Z"}
+2023-08-14 17:44:03.9009 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:44:03.9009021Z"}
+2023-08-14 17:44:09.9012 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:44:09.901233Z"}
+2023-08-14 17:44:13.6953 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:44:13.6953102Z"}
+2023-08-14 17:44:52.1623 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:44:52.1437442Z"}
+2023-08-14 17:45:07.3721 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:45:07.371989Z"}
+2023-08-14 17:46:38.1881 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:46:38.16961Z"}
+2023-08-14 17:46:53.1716 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:46:53.17158Z"}
+2023-08-14 17:48:56.0700 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:48:56.0520163Z"}
+2023-08-14 17:48:57.3593 ERROR Something went wrong: System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at DataAccess.Repositories.RepositoryBase`1.DeleteAsync(Int32 id) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\DataAccess\Repositories\RepositoryBase.cs:line 35
+   at Business.Concrete.BookManager.Delete(Int32 id) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\Business\Concrete\BookManager.cs:line 51
+   at WebAPI.Controllers.BookController.DeleteById(Int32 id) in C:\Users\karap\Desktop\Sw\Books\BookStoreAPI\WebAPI\Controllers\BookController.cs:line 67
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-14 17:49:09.6379 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:49:09.6377366Z"}
+2023-08-14 17:49:14.1626 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:49:14.1625303Z"}
+2023-08-14 17:49:28.3789 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:49:28.3789365Z"}
+2023-08-14 17:50:00.7271 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:50:00.7271432Z"}
+2023-08-14 17:50:42.1413 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:50:42.1223632Z"}
+2023-08-14 17:50:57.6367 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:50:57.6367055Z"}
+2023-08-14 17:53:30.5359 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:53:30.5180551Z"}
+2023-08-14 17:53:40.4371 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:53:40.4371087Z"}
+2023-08-14 17:54:17.3349 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:54:17.3141618Z"}
+2023-08-14 17:54:27.0337 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:54:27.0337263Z"}
+2023-08-14 17:55:36.8296 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:55:36.8114823Z"}
+2023-08-14 17:55:37.9991 ERROR Something went wrong: System.ArgumentOutOfRangeException: The relative expiration value must be positive. (Parameter 'AbsoluteExpirationRelativeToNow')
+Actual value was 00:00:00.
+   at Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions.set_AbsoluteExpirationRelativeToNow(Nullable`1 value)
+   at Microsoft.AspNetCore.ResponseCaching.MemoryResponseCache.Set(String key, IResponseCacheEntry entry, TimeSpan validFor)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.FinalizeCacheHeaders(ResponseCachingContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.<>c__DisplayClass19_0.<ShimResponseStream>b__0()
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-14 17:55:44.9206 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:55:44.9205666Z"}
+2023-08-14 17:55:44.9730 ERROR Something went wrong: System.ArgumentOutOfRangeException: The relative expiration value must be positive. (Parameter 'AbsoluteExpirationRelativeToNow')
+Actual value was 00:00:00.
+   at Microsoft.Extensions.Caching.Memory.MemoryCacheEntryOptions.set_AbsoluteExpirationRelativeToNow(Nullable`1 value)
+   at Microsoft.AspNetCore.ResponseCaching.MemoryResponseCache.Set(String key, IResponseCacheEntry entry, TimeSpan validFor)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.FinalizeCacheHeaders(ResponseCachingContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.<>c__DisplayClass19_0.<ShimResponseStream>b__0()
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 124
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-08-14 17:55:57.1026 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:55:57.0838524Z"}
+2023-08-14 17:56:04.9445 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:56:04.944451Z"}
+2023-08-14 17:56:19.5390 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:56:19.5389663Z"}
+2023-08-14 17:56:28.6407 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"DeleteById","Id":null,"CreateAt":"2023-08-14T14:56:28.6406915Z"}
+2023-08-14 17:57:43.3001 INFO {"Model":"OnActionExecuting","Controller":"Book","Action":"GetAll","Id":null,"CreateAt":"2023-08-14T14:57:43.3001368Z"}
